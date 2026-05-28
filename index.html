@@ -129,6 +129,13 @@
             display: block;
         }
 
+        a:link {
+            color: var(--niebieski-main-color);
+        }
+        a:visited {
+            color: var(--niebieski-sec-color);
+        }
+
         @media (max-width: 768px) {
             body {
                 overflow: auto; 
@@ -175,11 +182,12 @@
         <section id="left">
             <div id="o-mnie" class="content active">
                 <h1>O mnie</h1>
-                <p>Tutaj znajduje się tekst sekcji o mnie, który automatycznie wygeneruje pionową markę przewijania, jeśli nie zmieści się w oknie.</p>
+                <p>Mam na imię Darek i jestem uczniem <a href="https://tme.szczecin.pl/">Zespołu szkół elektryczno elektronicznych imienia Maksymiliana Tytusa Hubera</a> w szczecinie znanego również jako TME.</p>
+                
             </div>
             <div id="projekty" class="content">
                 <h1>Projekty</h1>
-                <p>Tutaj znajdują się Twoje projekty.</p>
+                <p>Tutaj "są" projekty.</p>
             </div>
         </section>
     </main>
